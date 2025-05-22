@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Nicolás Butterfield">
+    <meta name="description" content="Índice - Trabajo Práctico N°5 - E03 - Bootstrap">
+    <meta name="university" content="UNPA - Universidad Nacional de la Patagonia Austral - 2025">
+    <meta name="subject" content="Laboratorio de Programación">
+    <meta name="program" content="Analista de Sistemas y Licenciatura en Sistemas">
+
+    <title>Índice</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1 0 auto;
+        }
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+   
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Trabajo Práctico N°5 - E03 - Bootstrap</h1>
+    </header>
+
+    <main>
+        <div class="container mt-4">
+            <div class="row g-4">
+                <!-- Card 1: Planificación -->
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <img src="static/img/planificacion.png" class="card-img-top" alt="Planificación Diaria">
+                        <div class="card-body">
+                            <h5 class="card-title">Planificación Diaria</h5>
+                            <p class="card-text">Accede a la planificación diaria con horarios y actividades organizadas usando Bootstrap.</p>
+                            <a href="planificacion.html" class="btn btn-primary">Ver Planificación</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <img src="static/img/formulario.png" class="card-img-top" alt="Formulario de Registro">
+                        <div class="card-body">
+                            <h5 class="card-title">Formulario de Registro</h5>
+                            <p class="card-text">Completa el formulario de registro con tus datos personales y preferencias.</p>
+                            <a href="registro.html" class="btn btn-primary">Ir a Registro</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>© 2025 UNPA - Laboratorio de Programación</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
