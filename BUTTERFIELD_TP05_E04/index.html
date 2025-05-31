@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="author" content="Nicolás Butterfield">
+    <meta name="description" content="Caso de estudio - Trabajo Práctico N°5 - E04 - Bootstrap">
+    <meta name="university" content="Universidad Nacional de la Patagonia Austral - 2025">
+    <meta name="subject" content="Laboratorio de Programación">
+    <meta name="program" content="Analista de Sistemas y Licenciatura en Sistemas">
+
+  <title>Spotify - Mis Playlists</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">🎵 Spotify Playlists</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Mis Playlists</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Crear Playlist</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-4">
+    <h1>Mis Playlists Favoritas</h1>
+    <p class="lead">Descubre y crea nuevas listas musicales</p>
+  </header>
+
+  <section class="my-4 container">
+    <h2 class="mb-3">Portadas Destacadas</h2>
+    <div id="playlistCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="static/img/Oasis Fotos (14 de 386) _ Last_fm.jpeg"  class="d-block w-100" alt="Rock Mix">
+        </div>
+        <div class="carousel-item">
+          <img src="static/img/u2.jpeg"  class="d-block w-100" alt="Pop Hits">
+        </div>
+        <div class="carousel-item">
+          <img src="static/img/THE VERVE.jpeg"  class="d-block w-100" alt="Electro Vibes">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#playlistCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#playlistCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+  <section class="container my-4">
+    <h2 class="mb-3">Tus Playlists</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="static/img/Pick Some Tattoos And We'll Tell You Which Tattoo You Should Get Next.jpeg"  class="card-img-top" alt="Rock Mix">
+          <div class="card-body">
+            <h5 class="card-title">Rock Mix</h5>
+            <p class="card-text">Lista con tus canciones rockeras favoritas.</p>
+            <a href="#" class="btn btn-primary">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="static/img/pop.jpeg"  class="card-img-top" alt="Pop Hits">
+          <div class="card-body">
+            <h5 class="card-title">Pop Hits</h5>
+            <p class="card-text">Las mejores canciones pop de la semana.</p>
+            <a href="#" class="btn btn-primary">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="static/img/electronnic.jpeg"  class="card-img-top" alt="Electro Vibes">
+          <div class="card-body">
+            <h5 class="card-title">Electro Vibes</h5>
+            <p class="card-text">Ritmos electrónicos ideales para bailar.</p>
+            <a href="#" class="btn btn-primary">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-4">
+    <h2 class="mb-3">Crear Nueva Playlist</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombrePlaylist" class="form-label">Nombre de la Playlist</label>
+        <input type="text" class="form-control" id="nombrePlaylist" placeholder="Ej: Canciones de verano">
+      </div>
+      <div class="mb-3">
+        <label for="descripcionPlaylist" class="form-label">Descripción</label>
+        <textarea class="form-control" id="descripcionPlaylist" rows="3" placeholder="Describe tu playlist..."></textarea>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Géneros</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="rock" value="option1">
+          <label class="form-check-label" for="rock">Rock</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="pop" value="option2">
+          <label class="form-check-label" for="pop">Pop</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="electro" value="option3">
+          <label class="form-check-label" for="electro">Electrónica</label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success">Crear Playlist</button>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p class="mb-0">&copy; 2025 Spotify Playlists | Laboratorio de Programación 2025 | Nicolás Butterfield</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
