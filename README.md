@@ -1,6 +1,14 @@
-# 📋 Trabajo Práctico N°5 - Bootstrap
 
-![UNPA Logo](img/logo_UNPA.png)
+<p align="center">
+  <img src="img/logo_UNPA.png" alt="Logo UNPA" height="120">
+</p>
+
+<h1 align="center">Trabajo Práctico N°5 - Laboratorio de Programación</h1>
+<h3 align="center">Licenciatura en Sistemas - Universidad Nacional de la Patagonia Austral</h3>
+
+---
+
+# 📋 Trabajo Práctico N°5 - Bootstrap
 
 ## 📝 Descripción
 Este repositorio contiene la solución completa del **Trabajo Práctico N°5 (TP05) - 2025** de la asignatura *Laboratorio de Programación* de la Universidad Nacional de la Patagonia Austral, correspondiente a las carreras de Analista de Sistemas y Licenciatura en Sistemas. El TP05 se centra en el uso de Bootstrap para desarrollar páginas web responsivas, abarcando los siguientes ejercicios:
