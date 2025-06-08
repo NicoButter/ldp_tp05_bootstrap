@@ -40,3 +40,11 @@ Cualquier sugerencia o mejora es bienvenida. Por favor, crea un issue o envía u
 ## 📧 Contacto y Creador
 - **Creador**: Nicolás Butterfield
 - **Correo**: [nicobutter@gmail.com](mailto:nicobutter@gmail.com)
+
+## 🕹️ Bonus Track
+
+<p align="center">
+  <img src="img/Dredd.jpeg" alt="Epic Gamer Quote" width="500"><br>
+  <strong>"Judge Dredd."</strong><br>
+  <em>– Javik, Mass Effect 3</em>
+</p>
