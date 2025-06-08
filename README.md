@@ -45,6 +45,6 @@ Cualquier sugerencia o mejora es bienvenida. Por favor, crea un issue o envía u
 
 <p align="center">
   <img src="img/Dredd.jpeg" alt="Epic Gamer Quote" width="500"><br>
-  <strong>"Judge Dredd."</strong><br>
-  <em>– Javik, Mass Effect 3</em>
+  <strong>"I am the law."</strong><br>
+  <em>– Judge Dredd.</em>
 </p>
